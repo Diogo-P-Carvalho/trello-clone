@@ -8,20 +8,39 @@ export default {}
 
 <style lang="css">
 .task {
-  @apply flex items-center flex-wrap shadow mb-2 py-2 px-2 rounded bg-white text-grey-darkest no-underline;
+  @apply flex;
+  @apply items-center;
+  @apply flex-wrap;
+  @apply shadow;
+  @apply mb-2;
+  @apply py-2;
+  @apply px-2;
+  @apply rounded;
+  @apply bg-white;
+  @apply text-grey-darkest;
+  @apply no-underline;
 }
 
 .column {
-  @apply bg-grey-light p-2 mr-4 text-left shadow rounded;
+  @apply bg-grey-light;
+  @apply p-2;
+  @apply mr-4;
+  @apply text-left;
+  @apply shadow;
+  @apply rounded;
   min-width: 350px;
 }
 
 .board {
-  @apply p-4 bg-teal-dark h-full overflow-auto;
+  @apply p-4;
+  @apply bg-teal-dark;
+  @apply h-full;
+  @apply overflow-auto;
 }
 
 .task-bg {
-  @apply pin absolute;
+  @apply pin;
+  @apply absolute;
   background: rgba(0, 0, 0, 0.5);
 }
 </style>

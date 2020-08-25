@@ -8,7 +8,18 @@ export default {}
 
 <style>
 .task-view {
-  @apply relative flex flex-row bg-white pin mx-4 m-32 mx-auto py-4 text-left rounded shadow;
+  @apply relative;
+  @apply flex;
+  @apply flex-row;
+  @apply bg-white;
+  @apply pin;
+  @apply mx-4;
+  @apply m-32;
+  @apply mx-auto;
+  @apply py-4;
+  @apply text-left;
+  @apply rounded;
+  @apply shadow;
   max-width: 700px;
 }
 </style>
